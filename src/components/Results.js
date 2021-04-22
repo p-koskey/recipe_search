@@ -1,9 +1,11 @@
 import React from 'react'
 
-const Results = () => {
+const Results = ({title,image,url}) => {
     return (
-        <div>
-            <h1>Results</h1>
+        <div className="result">
+           <img src={image} alt=""/>
+          <a href={url}> <p style={{color:''}}>{title}</p></a>
+            
         </div>
     )
 }
