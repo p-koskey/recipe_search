@@ -1,60 +1,119 @@
+h1, h2, h3, h4 {
+    font-weight: lighter;
+}
 .search-form {
   display: flex;
   justify-content: center;
   text-align: center;
   background-color: #faf5ff;
-      padding-top: 4rem;
-    padding-bottom: 4rem;
-     width: 100vw;
-    position: relative;
-    left: 50%;
-    right: 50%;
-    margin-left: -50vw;
-    margin-right: -50vw;
-    overflow: auto;
-    
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  overflow: auto;
 }
 .search-bar {
   width: 25%;
   padding: 1rem;
   margin-right: 10px;
   border: 2px solid #fbb6ce;
-  border-radius: .5rem;
-  
+  border-radius: 0.5rem;
 }
-.search-button{ 
-  padding: .5rem;    
+.search-button {
+  padding: 0.5rem;
   padding-right: 1rem;
   background-color: #fbb6ce;
   color: #fff;
   border: 2px solid #fbb6ce;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
 }
 .results {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
+  margin: 2rem;
 }
 .result {
-  border: 1px solid black;
-  border-radius: 50px;
   margin: 20px;
-  padding: 20px;
+  width: 50rem;
 }
 nav {
   width: 100vw;
-    position: relative;
-    left: 50%;
-    right: 50%;
-    margin-left: -50vw;
-    margin-right: -50vw;
-    overflow: auto;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    background-color: #faf5ff;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  overflow: auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #faf5ff;
 }
 
-nav h1{
+nav h1 {
   margin: 20px 50px;
   font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+}
+nav h4{
+  margin: 20px 100px;
+  font-size: 1rem;
+  text-align: center;
+  font-weight: lighter;
+}
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  background-color: #fff;
+}
+
+/* Add some padding inside the card container */
+.container {
+  display: inline;
+  margin: 20px;
+
+}
+.container h2{
+  font-size: 22px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 10px ;
+}
+.btn{
+  position: relative;
+}
+.btn button {
+  padding: 0.5rem;
+  padding-right: 1rem;
+  background-color: #fbb6ce;
+  color: #fff;
+  border: 2px solid #fbb6ce;
+  border-radius: 0.5rem;
+  float:right;
+  bottom: 0;
+  margin-right: 2rem; 
+  margin-bottom: 2rem;
+}
+a{
+  text-decoration: none;
+}
+.container ul{
+  list-style: none;
+}
+.container li{
+  font-size: 15px;
+  font-style: italic;
+}
+.image{
+  float: left;
+  margin: 30px;
+  height: 300px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
